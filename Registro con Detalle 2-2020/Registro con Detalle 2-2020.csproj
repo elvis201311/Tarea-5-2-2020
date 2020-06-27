@@ -7,4 +7,19 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="DAL\" />
+    <Folder Include="BLL\" />
+    <Folder Include="Datos\" />
+    <Folder Include="UI\Registro\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkcore.SQLite" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkcore.Tools" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
 </Project>
