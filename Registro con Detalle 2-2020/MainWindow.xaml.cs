@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Registro_con_Detalle_2_2020.UI.Registro;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,12 @@ namespace Registro_con_Detalle_2_2020
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            rArticulos rArticulo = new rArticulos();
+            rArticulo.Show();
         }
     }
 }

@@ -15,7 +15,7 @@ namespace Registro_con_Detalle_2_2020.Entidades
             public double Costo { get; set; }
             public double ValorInventario { get; set; }
 
-            //REGISTRO DETALLADO
+            
             [ForeignKey("IdArticulo")]
             public List<ArticulosDetalle> Detalle { get; set; } = new List<ArticulosDetalle>();
         }
